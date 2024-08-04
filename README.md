@@ -12,5 +12,7 @@ Clone Project
 Setup Run/Debug settings for TestNG
 
 Open Templates > TestNG
+
  Output directory: target/surefire
-VM Options: -ea Denv=acc -Ddriver=chrome
+ 
+ VM Options: -ea -Denv=acc -Ddriver=chrome
